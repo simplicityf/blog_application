@@ -1,0 +1,31 @@
+const {
+  PORT,
+  CONNECTIONURL,
+  JWT_SECRET,
+  CLIENT_ID,
+  CLIENT_SECRET,
+  REFRESH_TOKEN,
+  AWS_ACCESS_KEY,
+  AWS_SECRET_ACCESS_KEY,
+  AWS_BUCKET_NAME,
+  AWS_REGION,
+  CLIENT_ID_AUTH,
+  CLIENT_SECRET_AUTH,
+  MY_SCECRET_KEY,
+} = process.env;
+
+module.exports = {
+  port: PORT,
+  connectionUrl: CONNECTIONURL,
+  jwtSecret: JWT_SECRET,
+  clientId: CLIENT_ID,
+  clientSecret: CLIENT_SECRET,
+  refreshToken: REFRESH_TOKEN,
+  aws_access_key: AWS_ACCESS_KEY,
+  aws_secret_access_key: AWS_SECRET_ACCESS_KEY,
+  aws_bucket_name: AWS_BUCKET_NAME,
+  aws_region: AWS_REGION,
+  client_id_auth: CLIENT_ID_AUTH,
+  client_secret_auth: CLIENT_SECRET_AUTH,
+  my_secret_key: MY_SCECRET_KEY,
+};
